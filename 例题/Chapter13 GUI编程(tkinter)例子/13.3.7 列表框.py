@@ -1,0 +1,11 @@
+from tkinter import *
+top = Tk()
+list_box = Listbox(top)
+list_box.insert(1, "Python")
+list_box.insert(2, "Perl")
+list_box.insert(3, "C")
+list_box.insert(4, "PHP")
+list_box.insert(5, "JSP")
+list_box.insert(6, "Ruby")
+list_box.pack()
+top.mainloop()

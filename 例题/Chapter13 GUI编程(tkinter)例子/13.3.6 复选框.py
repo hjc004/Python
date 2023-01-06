@@ -1,0 +1,11 @@
+from tkinter import *
+top = Tk()
+label = Label(top, text='请选择您爱好的球类运动：')
+label.pack()
+check_one = Checkbutton(top, text="足球", height=2, width=20)
+check_two = Checkbutton(top, text="篮球", height=2, width=20)
+check_three = Checkbutton(top, text="排球", height=2, width=20)
+check_one.pack()
+check_two.pack()
+check_three.pack()
+top.mainloop()

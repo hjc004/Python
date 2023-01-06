@@ -1,0 +1,13 @@
+from tkinter import *
+top = Tk()
+button_one = Button(top, text ="FLAT", relief=FLAT)
+button_two = Button(top, text="RAISED", relief=RAISED)
+button_three = Button(top, text ="SUNKEN", relief=SUNKEN)
+button_four = Button(top,  text="GROOVE", relief=GROOVE)
+button_five = Button(top,  text="RIDGE", relief=RIDGE)
+button_one.pack()
+button_two.pack()
+button_three.pack()
+button_four.pack()
+button_five.pack()
+top.mainloop()
