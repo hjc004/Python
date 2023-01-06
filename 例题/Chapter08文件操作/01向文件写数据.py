@@ -1,0 +1,7 @@
+file = open('itheima.txt', 'w')
+file.write('hello itheima, i am here!')
+file.write('\n')
+file.write('hello itheima, i am here!')
+file.write('\n')
+file.write('hello itheima, i am here!')
+file.close()

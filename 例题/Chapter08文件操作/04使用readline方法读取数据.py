@@ -1,0 +1,6 @@
+file = open('itheima.txt', 'r')
+content = file.readline()
+print("1:%s"%content)
+content = file.readline()
+print("2:%s"%content)
+file.close()
